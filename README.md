@@ -10,7 +10,7 @@ A family of independent tools for Bitcoin and learning.
 | --- | --- | --- |
 | **Wallaby Signer** | Available; public repository being prepared | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
 | **Wallaby Dashboard** | Coming soon | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
-| **Wallaby Vault** | Coming soon | Bitcoin timelock planning and offline vault workflows |
+| **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
 
 ## Landing page
