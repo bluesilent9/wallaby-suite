@@ -8,7 +8,7 @@ A family of independent tools for Bitcoin and learning.
 
 | Program | Status | Purpose |
 | --- | --- | --- |
-| **Wallaby Signer** | Available; public repository being prepared | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
+| **[Wallaby Signer](https://github.com/bluesilent9/wallaby-signer)** | [Stable V1 available](https://github.com/bluesilent9/wallaby-signer/releases/tag/v1.0.0) | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
 | **Wallaby Dashboard** | Coming soon | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
@@ -17,7 +17,7 @@ A family of independent tools for Bitcoin and learning.
 
 The complete responsive website is the self-contained `index.html`. Open it locally, or view it through GitHub Pages. No build tools, external fonts, analytics or third-party scripts are required.
 
-Product feature descriptions, development plans and release status are included on the page. Planned capabilities are labelled; there are no announced release dates. The Signer repository button intentionally opens a placeholder notice.
+Product feature descriptions, development plans and release status are included on the page. Planned capabilities are labelled; there are no announced release dates. The Signer button opens its public repository, with a separate link to the Stable V1 downloads and audit guidance.
 
 ## Support and feedback
 
@@ -26,3 +26,4 @@ Please use GitHub Issues for bug reports, questions and feature requests when th
 ## Publication
 
 This repository contains the suite landing page only. Product code and downloads will live in their own repositories. The landing page is published through GitHub Pages from the main branch’s root directory.
+
