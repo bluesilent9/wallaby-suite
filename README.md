@@ -27,3 +27,7 @@ Please use GitHub Issues for bug reports, questions and feature requests when th
 
 This repository contains the suite landing page only. Product code and downloads will live in their own repositories. The landing page is published through GitHub Pages from the main branch’s root directory.
 
+
+## Wallaby Agent V1
+
+[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) includes source and an Ubuntu 26.04 LTS DEB installer. It provides per-user IPv6 SSH tunnels for Jellyfin, DDNS-GO and the Bitcoin Core connection to Wallaby Dashboard. All services start off; enabled services reconnect and start at user login. Stable has no application release yet.
