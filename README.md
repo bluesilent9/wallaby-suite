@@ -12,6 +12,7 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | **Wallaby Dashboard** | Coming soon | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
+| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development source prepared; installer build pending | Per-user IPv6 SSH access to DDNS-GO and the Bitcoin Core node interface for Wallaby Dashboard |
 | **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
 
 ## Landing page
@@ -29,9 +30,11 @@ Please use GitHub Issues for bug reports, questions and feature requests when th
 This repository contains the suite landing page only. Product code and downloads will live in their own repositories. The landing page is published through GitHub Pages from the main branch’s root directory.
 
 
-## Wallaby Agent V1
+## Wallaby Agent V2
 
-[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) includes source and an Ubuntu 26.04 LTS DEB installer. It provides per-user IPv6 SSH tunnels for Jellyfin, DDNS-GO and the Bitcoin Core connection to Wallaby Dashboard. All services start off; enabled services reconnect and start at user login. Stable has no application release yet.
+[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides a local HTML5 configuration page for **DDNS-GO Administration** and the **Bitcoin Core Node Dashboard Interface**. It uses IPv6 SSH tunnels and per-user services. Both switches start OFF; enabled services reconnect automatically and start at user login.
+
+V2 removes Jellyfin SSH Administration and migrates existing V1 settings while preserving DDNS-GO and node choices. V2 source is prepared; the Ubuntu 26.04 LTS DEB build and live node testing are pending. Existing V1 installers do not include these changes. Stable has no released Agent application yet.
 
 ## Wallaby Popcorn platform hub
 
