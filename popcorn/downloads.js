@@ -1,6 +1,7 @@
 /* Public release metadata only. Never substitute another platform's download. */
 (async () => {
     const allowed = {
+        'wallaby-popcorn-androidtv': /\.(apk|sha256|sha256sum|sha256sums|txt)$/i,
         'wallaby-popcorn': /\.(apk|aab|sha256|sha256sum|sha256sums|txt)$/i,
         'wallaby-popcorn-web': /\.(deb|zip|tar\.gz|sha256|sha256sum|sha256sums|txt)$/i,
         'wallaby-popcorn-desktop': /\.(deb|AppImage|exe|msi|dmg|pkg|zip|sha256|sha256sum|sha256sums|txt)$/i
@@ -33,6 +34,7 @@
             }
             status.textContent = count ? `${count} published file${count === 1 ? '' : 's'}. Check the version and platform before installing.` :
                 repo === 'wallaby-popcorn' ? 'No public APK release files yet. Stable and Development source are linked above.' :
+                    repo === 'wallaby-popcorn-androidtv' ? 'No public Android TV APK yet. Development source is available; build and TV testing are pending.' :
                     repo === 'wallaby-popcorn-web' ? 'No public server web build yet. Development source and preparation notes are linked above.' : 'No public desktop release files yet. Local Ubuntu 26.04 test builds are not published here.';
         } catch (_) {
             status.textContent = 'The release list is temporarily unavailable. Open the GitHub releases link below to check downloads.';
