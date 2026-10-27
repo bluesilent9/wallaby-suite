@@ -12,7 +12,7 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | **Wallaby Dashboard** | Coming soon | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
-| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development; Dashboard access update prepared, build pending | Per-user IPv6 SSH access to DDNS-GO, Dashboard browser access and the Bitcoin Core node interface |
+| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development build 3 installer available | Per-user IPv6 SSH access to DDNS-GO, Dashboard browser access and the Bitcoin Core node interface |
 | **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
 
 ## Landing page
@@ -34,7 +34,7 @@ This repository contains the suite landing page only. Product code and downloads
 
 [Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides a local HTML5 page for **DDNS-GO Administration**, **Wallaby Dashboard browser access** (port 38951), and the separate **Bitcoin Core Node Dashboard Interface** (port 56443). Each per-user IPv6 SSH service can be enabled independently and starts at login when on. Dashboard browser access needs no Bitcoin Core installation.
 
-The build 3 update adds Dashboard access OFF by default while preserving existing DDNS-GO/node settings. It also includes the staged connection diagnostics and Save settings reminder. Source is prepared; the updated Ubuntu 26.04 LTS DEB build is paused for the requested reboot. The published V2 dev1 installer does not contain these additions. Stable has no released Agent application.
+The build 3 update adds Dashboard access OFF by default while preserving existing DDNS-GO/node settings. It also includes the staged connection diagnostics and Save settings reminder. The [Ubuntu 26.04 LTS build 3 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev3_amd64.deb) and [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt) are available. All 42 automated tests and package inspection pass; installation and live startup testing remain pending. Older installers do not contain these additions. Stable has no released Agent application.
 
 ## Wallaby Popcorn platform hub
 
