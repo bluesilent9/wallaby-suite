@@ -9,7 +9,7 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | Program | Status | Purpose |
 | --- | --- | --- |
 | **[Wallaby Signer](https://github.com/bluesilent9/wallaby-signer)** | [Stable V1 available](https://github.com/bluesilent9/wallaby-signer/releases/tag/v1.0.0) | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
-| **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 1 Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development); DEB build pending | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
+| **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 1 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev1_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
 | **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 4 installer available | Per-user IPv6 SSH access to DDNS-GO, Dashboard browser access and the Bitcoin Core node interface |
@@ -45,4 +45,4 @@ Wallaby Popcorn Server is the overall installation. Its installer requires a com
 
 ## Wallaby Dashboard
 
-[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 1 fixes node wallet loading together with [Agent V2 Development Build 4](https://github.com/bluesilent9/wallaby-agent/tree/Development). Agent Build 4 is built and uploaded; the Dashboard DEB remains pending its separate reboot/build checkpoint. Dashboard will be supplied as a DEB that starts and enables its system service. Historical Agent Build 3 artifacts remain available, but contain the wallet RPC routing defect.
+[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 1 fixes node wallet loading together with [Agent V2 Development Build 4](https://github.com/bluesilent9/wallaby-agent/tree/Development). Agent Build 4 and the Dashboard V1 Build 1 DEB are built and uploaded. The Dashboard DEB starts and enables its system service. Historical Agent Build 3 artifacts remain available, but contain the wallet RPC routing defect.
