@@ -9,7 +9,7 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | Program | Status | Purpose |
 | --- | --- | --- |
 | **[Wallaby Signer](https://github.com/bluesilent9/wallaby-signer)** | [Stable V1 available](https://github.com/bluesilent9/wallaby-signer/releases/tag/v1.0.0) | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
-| **Wallaby Dashboard** | Coming soon | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
+| **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 1 Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development); DEB build pending | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
 | **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development build 3 installer available | Per-user IPv6 SSH access to DDNS-GO, Dashboard browser access and the Bitcoin Core node interface |
@@ -41,3 +41,8 @@ The build 3 update adds Dashboard access OFF by default while preserving existin
 [Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/) brings together the [Android Mobile repository](https://github.com/bluesilent9/wallaby-popcorn/tree/Stable), [desktop Development repository](https://github.com/bluesilent9/wallaby-popcorn-desktop/tree/Development) and [server web Development repository](https://github.com/bluesilent9/wallaby-popcorn-web/tree/Development), platform availability and public release files. It reads recent release assets from each repository and has a direct GitHub fallback. No public APK or DEB release assets were available when this page was prepared. No application build is required to publish these static pages.
 
 Wallaby Popcorn Server is the overall installation. Its installer requires a compatible Jellyfin backend, matching Wallaby Popcorn Web package and FFmpeg, following Jellyfin’s package split. The new web design is server-delivered for desktop/web TV, while mobile remains unchanged. Native Android TV has a separate UI. Server/web builds and live validation are pending; no networking change is included.
+
+
+## Wallaby Dashboard
+
+[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 1 fixes node wallet loading together with [Agent V2 Development Build 4](https://github.com/bluesilent9/wallaby-agent/tree/Development). Source tests pass; both new installers await their separate build checkpoints. Dashboard will be supplied as a DEB that starts and enables its system service. Historical Agent Build 3 artifacts remain available, but contain the wallet RPC routing defect.
