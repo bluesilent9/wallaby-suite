@@ -12,7 +12,7 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 7 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev7_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
-| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 4 installer available | Per-user IPv6 SSH access to DDNS-GO, Dashboard browser access and the Bitcoin Core node interface |
+| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 5 available |  IPv6 services, public/read-only node RPC, local Vault Builder and Authorise |
 | **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
 
 ## Landing page
@@ -32,9 +32,9 @@ This repository contains the suite landing page only. Product code and downloads
 
 ## Wallaby Agent V2
 
-[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides a local HTML5 page for **DDNS-GO Administration**, **Wallaby Dashboard browser access** (port 38951), and the separate **Bitcoin Core Node Dashboard Interface** (port 56443). Each per-user IPv6 SSH service can be enabled independently and starts at login when on. Dashboard browser access needs no Bitcoin Core installation.
+[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) includes Services, Vault Builder and Authorise. Its three independent per-user IPv6 services provide DDNS-GO administration, Dashboard browser access (38951) and node transport (56443). Build 5 restricts direct Dashboard RPC to public/read-only queries, constructs full-wallet height-locked vault PSBTs, and requires local approval for imports, signing and broadcast. Denials persist; matured vaults can roll into a new vault.
 
-Build 4 fixes exact Core wallet RPC routing and bounded request handling. It retains independent Dashboard browser access, connection diagnostics and the Save settings reminder. The [Ubuntu 26.04 LTS Build 4 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev4_amd64.deb) and [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt) are available. All 44 automated tests and package inspection pass; installation and live startup testing remain pending. Older installers do not contain these additions. Stable has no released Agent application.
+The [Ubuntu 26.04 LTS amd64 Build 5 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev5_amd64.deb) and [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt) are available. 60 tests pass, including 12 isolated Bitcoin Core 31 regtest cases; package checks pass. Stable has no Agent application release. Dashboard-side vault exchange and immutable Transaction Builder Stage 2 reception remain future work; the Agent queues exports until that [protocol](https://github.com/bluesilent9/wallaby-agent/blob/Development/APPROVAL_PROTOCOL.md) is implemented. No Dashboard program was changed for this build.
 
 ## Wallaby Popcorn platform hub
 
