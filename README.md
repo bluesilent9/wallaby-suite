@@ -2,7 +2,7 @@
 <h1 align="center">Wallaby Suite</h1>
 <p align="center">Tools for a more independent life.</p>
 
-A family of independent tools for Bitcoin, learning, connection and entertainment.
+A family of independent tools for Bitcoin, connection and entertainment.
 
 **[Explore the Wallaby Suite website](https://bluesilent9.github.io/wallaby-suite/)**
 
@@ -10,10 +10,8 @@ A family of independent tools for Bitcoin, learning, connection and entertainmen
 | --- | --- | --- |
 | **[Wallaby Signer](https://github.com/bluesilent9/wallaby-signer)** | [Stable V1 available](https://github.com/bluesilent9/wallaby-signer/releases/tag/v1.0.0) | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
 | **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 7 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev7_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
-| **Wallaby Vault** | Coming soon | Bitcoin protection for your family’s future, exclusively on a cold-storage laptop |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
 | **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 5 available |  IPv6 services, public/read-only node RPC, local Vault Builder and Authorise |
-| **Wallaby School** | Early concept; much further from release | Help families build an individual homeschooling education program |
 
 ## Landing page
 
@@ -34,7 +32,7 @@ This repository contains the suite landing page only. Product code and downloads
 
 [Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) includes Services, Vault Builder and Authorise. Its three independent per-user IPv6 services provide DDNS-GO administration, Dashboard browser access (38951) and node transport (56443). Build 5 restricts direct Dashboard RPC to public/read-only queries, constructs full-wallet height-locked vault PSBTs, and requires local approval for imports, signing and broadcast. Denials persist; matured vaults can roll into a new vault.
 
-The [Ubuntu 26.04 LTS amd64 Build 5 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev5_amd64.deb) and [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt) are available. 60 tests pass, including 12 isolated Bitcoin Core 31 regtest cases; package checks pass. Stable has no Agent application release. Dashboard-side vault exchange and immutable Transaction Builder Stage 2 reception remain future work; the Agent queues exports until that [protocol](https://github.com/bluesilent9/wallaby-agent/blob/Development/APPROVAL_PROTOCOL.md) is implemented. No Dashboard program was changed for this build.
+The [Ubuntu 26.04 LTS amd64 Build 5 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev5_amd64.deb) and [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt) are available. 60 tests pass, including 12 isolated Bitcoin Core 31 regtest cases; package checks pass. Stable has no Agent application release. Dashboard-side vault exchange and immutable Transaction Builder Stage 2 reception remain future work; the Agent queues exports until that [protocol](https://github.com/bluesilent9/wallaby-agent/blob/Development/APPROVAL_PROTOCOL.md) is implemented. Transaction signing gives Agent local signing authority while Core is unlocked; independently audit its source and dependencies before compiling for signing. See the [signing warning](https://github.com/bluesilent9/wallaby-agent/blob/Development/README.md).
 
 ## Wallaby Popcorn platform hub
 
@@ -45,4 +43,7 @@ Wallaby Popcorn Server is the overall installation. Its installer requires a com
 
 ## Wallaby Dashboard
 
-[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 7 replaces historical-wallet ODS uploads with labelled Core watch-only groups and adds traced no-compensation C1 capital losses. It retains node-only tracing, balance details and fee/block estimates. It works with [Agent V2 Development Build 4](https://github.com/bluesilent9/wallaby-agent/tree/Development). Agent Build 4 and the Dashboard V1 Build 7 DEB are built and uploaded. The Dashboard DEB starts and enables its system service. Historical Agent Build 3 artifacts remain available, but contain the wallet RPC routing defect.
+[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 7 replaces historical-wallet ODS uploads with labelled Core watch-only groups and adds traced no-compensation C1 capital losses. It retains node-only tracing, balance details and fee/block estimates. [Agent V2 Development Build 5](https://github.com/bluesilent9/wallaby-agent/tree/Development) is the current companion; corrected wallet routing was introduced in Build 4. Dashboard V1 Build 7 continues to use public/read-only node RPC. The new Agent approval/exchange protocol and immutable Stage 2 receiver are not implemented in Dashboard; preconfigure watch wallets locally because direct remote creation/import is blocked. Both current Development DEBs are available. The Dashboard DEB starts and enables its system service. Historical Agent Build 3 artifacts remain available, but contain the wallet RPC routing defect.
+
+
+Only existing projects are listed: Signer, Dashboard, Agent and Popcorn. Vault Builder is part of Agent. Dashboard no longer has Wallet Key Explorer or historical-wallet ODS uploads; it uses Core wallet evidence exclusively for blockchain history, while market/currency prices remain external.
