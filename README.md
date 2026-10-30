@@ -8,16 +8,14 @@ A family of independent tools for Bitcoin, connection and entertainment.
 
 | Program | Status | Purpose |
 | --- | --- | --- |
-| **[Wallaby Signer](https://github.com/bluesilent9/wallaby-signer)** | [Stable V1 available](https://github.com/bluesilent9/wallaby-signer/releases/tag/v1.0.0) | Offline Bitcoin message signing for supported Bitcoin Core descriptor wallets |
 | **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 11 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev11_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
-| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 9 available |  IPv6 services, public/read-only RPC, unsigned vault proposals and locally verified approvals |
+| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 10 available |  IPv6 services, protected local approvals, optical archive signing and BIP-322 message proofs |
 
 ## Landing page
 
 The complete responsive website is the self-contained `index.html`. Open it locally, or view it through GitHub Pages. No build tools, external fonts, analytics or third-party scripts are required.
 
-Product feature descriptions, development plans and release status are included on the page. Planned capabilities are labelled; there are no announced release dates. The Signer button opens its public repository, with a separate link to the Stable V1 downloads and audit guidance.
 
 ## Support and feedback
 
@@ -30,13 +28,13 @@ This repository contains the suite landing page only. Product code and downloads
 
 ## Wallaby Agent V2
 
-[Wallaby Agent Development](https://github.com/bluesilent9/wallaby-agent/tree/Development) includes Services, Synchronisation, Authorise and Burn Disc. Its three per-user IPv6 services provide DDNS-GO administration, Dashboard browser access (38951) and node reporting (56443). Build 9 retains live settings and the shared authenticated SSH connection; direct Dashboard RPC remains public/read-only.
+[Wallaby Agent V2 Development Build 10](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides Services, Synchronisation, Disc Operations, Sign Message and Authorise. Its three user-level IPv6 services remain DDNS-GO administration, Dashboard browser access and node reporting, with live settings and a shared authenticated SSH connection.
 
-Dashboard V1 Build 11 Wallet Builder proposes independent signing roles, signature thresholds and optional mandatory heights. Agents verify signed public contributions and the exact policy before creating their assigned encrypted wallets or physical backups. Transaction Builder verifies distinct signatures per input, then requests separately authorised broadcast. Agent Build 9 still needs a guided disc-restore signing screen; Dashboard can route to an account restored locally.
+Disc Operations locally decrypts, verifies and loads a physical cosigner only into the protected temporary RAM node. New recovery burns stream independently checksummed encrypted copies across the medium without creating a full-capacity RAM image. Damaged copies are skipped during restoration. Sign Message uses node or disc-loaded accounts for BIP-322 single-key and multisignature proofs; no manual private-key export is required.
 
-Wallet synchronisation adds a sender-node-verified, signed initial public preview and direct encrypted wallet-file transfer over IPv6 SSH. Users compare identity fingerprints and preview codes independently of Dashboard. **Dashboard Build 11 now implements the [signed-preview relay](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/docs/AGENT_PROTOCOL.md), including frozen request bindings, persistent authoritative lists, signed metadata previews and local history recovery. Use Dashboard Build 11 with Agent Build 9.** The Agent provides SSH/UFW/modem diagnostics and displays the selected direct-LAN or routed path. Private wallet files and login passwords never pass through Dashboard.
+Authorise queues local requests and allows cancellation or incoming-policy synchronisation exclusions. Red sidebar dots show unresolved authorisations and synchronisation/history issues. Services remain available independently; Bitcoin pages require the connected node interface. Dashboard Build 11 already supports locally restored cosigner routing and per-input signature collection. The new wallet-exclusion preference protocol requires a later Dashboard update, documented in the Agent repository.
 
-The [Ubuntu 26.04 LTS amd64 Build 9 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev9_amd64.deb), [checksums](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/SHA256SUMS.txt), source and validation notes are on Development. **Read the Agent repository's signing/private-key audit warning before compiling or using its signing functions.** This remains a Development build, with live cross-laptop SSH testing against the updated Dashboard still required. Stable is unchanged.
+The [Ubuntu 26.04 LTS amd64 Build 10 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev10_amd64.deb), checksums, source and validation are on Development. The protected worker’s desktop/Snap startup and actual M-Disc hardware need deployment validation. Read the Agent repository’s signing/private-key audit warning. Stable is unchanged.
 
 ## Wallaby Popcorn platform hub
 
@@ -52,6 +50,6 @@ Wallaby Popcorn Server is the overall installation. Its installer requires a com
 Unsigned vault composition, partial signatures and separate broadcast approvals are implemented. Vault cards show policy/balance/unlock status. Existing node-only histories, historical watch groups, C1 losses, CGT, balances and fees remain. The Dashboard DEB starts and enables its system service. See [validation](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/VALIDATION.md): protocol interoperability is tested, while physical laptop-to-laptop SSH/firewall checks remain local deployment work.
 
 
-Only existing projects are listed: Signer, Dashboard, Agent and Popcorn. Vault Builder is part of Agent. Dashboard no longer has Wallet Key Explorer or historical-wallet ODS uploads; it uses Core wallet evidence exclusively for blockchain history, while market/currency prices remain external.
+The Suite includes Dashboard, Agent and Popcorn. Wallet Builder is in Dashboard; private wallet operations require local Agent approval. Dashboard no longer has Wallet Key Explorer or historical-wallet ODS uploads; it uses Core wallet evidence exclusively for blockchain history, while market/currency prices remain external.
 
 Dashboard Build 11 requires Agent Build 9 or newer and removes older synchronization paths. It implements complete queue snapshots, signed vault/address-label metadata and recovery-required outcomes without retransferring received wallets or remotely restarting Core. Wallets has owner and Active/Extinct filters; extinct cards show activity years. Agent Build 9 supports locally approved retirement; Wallet Builder now proposes single-signature, multisig and mandatory-height vault policies for authenticated local Agent approvals.
