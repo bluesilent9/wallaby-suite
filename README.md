@@ -10,7 +10,7 @@ A family of independent tools for Bitcoin, connection and entertainment.
 | --- | --- | --- |
 | **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 11 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev11_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
-| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 10 available |  IPv6 services, protected local approvals, optical archive signing and BIP-322 message proofs |
+| **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 11 available |  IPv6 services, protected local approvals, optical archive signing and BIP-322 message proofs |
 
 ## Landing page
 
@@ -28,13 +28,13 @@ This repository contains the suite landing page only. Product code and downloads
 
 ## Wallaby Agent V2
 
-[Wallaby Agent V2 Development Build 10](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides Services, Synchronisation, Disc Operations, Sign Message and Authorise. Its three user-level IPv6 services remain DDNS-GO administration, Dashboard browser access and node reporting, with live settings and a shared authenticated SSH connection.
+[Wallaby Agent V2 Development Build 11](https://github.com/bluesilent9/wallaby-agent/tree/Development) provides Services, Synchronisation, Disc Operations, Sign Message and Authorise. Its three user-level IPv6 services remain DDNS-GO administration, Dashboard browser access and node reporting, with live settings and a shared authenticated SSH connection.
 
 Disc Operations locally decrypts, verifies and loads a physical cosigner only into the protected temporary RAM node. New recovery burns stream independently checksummed encrypted copies across the medium without creating a full-capacity RAM image. Damaged copies are skipped during restoration. Sign Message uses node or disc-loaded accounts for BIP-322 single-key and multisignature proofs; no manual private-key export is required.
 
-Authorise queues local requests and allows cancellation or incoming-policy synchronisation exclusions. Red sidebar dots show unresolved authorisations and synchronisation/history issues. Services remain available independently; Bitcoin pages require the connected node interface. Dashboard Build 11 already supports locally restored cosigner routing and per-input signature collection. The new wallet-exclusion preference protocol requires a later Dashboard update, documented in the Agent repository.
+Authorise queues local requests and allows cancellation or incoming-policy synchronisation exclusions. Red sidebar dots show unresolved authorisations and synchronisation/history issues. Services remain available independently; Bitcoin pages require the connected node interface. Dashboard Build 11 already supports locally restored cosigner routing and per-input signature collection. Build 11 keeps the wallet-sync Denial list locally across reboots; re-enabling a wallet clears its only block. One-off declined requests stay in RAM. No Dashboard update is needed for enforcement or persistence; its optional status query only explains disabled policies and suppresses its own alerts.
 
-The [Ubuntu 26.04 LTS amd64 Build 10 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev10_amd64.deb), checksums, source and validation are on Development. The protected worker’s desktop/Snap startup and actual M-Disc hardware need deployment validation. Read the Agent repository’s signing/private-key audit warning. Stable is unchanged.
+The [Ubuntu 26.04 LTS amd64 Build 11 DEB](https://github.com/bluesilent9/wallaby-agent/blob/Development/dist/wallaby-agent_2.0.0~dev11_amd64.deb), checksums, source and validation are on Development. The protected worker’s desktop/Snap startup and actual M-Disc hardware need deployment validation. Read the Agent repository’s signing/private-key audit warning. Stable is unchanged.
 
 ## Wallaby Popcorn platform hub
 
