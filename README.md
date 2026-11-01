@@ -8,7 +8,7 @@ A family of independent tools for Bitcoin, connection and entertainment.
 
 | Program | Status | Purpose |
 | --- | --- | --- |
-| **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 21 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev21_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
+| **[Wallaby Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/)** | [V1 Build 22 Development DEB](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/dist/wallaby-dashboard_1.0.0~dev22_all.deb) available | Wallet insights, Australian CGT reporting, visual transactions and family workflows |
 | **[Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/)** | Mobile Stable source; desktop and server web Development; public installers pending | Jellyfin playback with built-in SSH tunnelling, cinema browsing and in-app desktop server management |
 | **[Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development)** | V2 Development Build 14 available |  IPv6 services, protected local approvals, optical archive signing and BIP-322 message proofs |
 
@@ -20,7 +20,7 @@ Build 20 saves single-creator Wallet Builder and Transaction Builder workspaces,
 Earlier Build 19 restores the vault calendar and timezone map in Wallet Builder. Choose a 07:00 local target; a synchronised node supplies the tip for the 99% arrival-model height estimate. The read-only height displays commas but copies plain digits, with target and most-likely times in the selected timezone and UTC. Single-wallet defaults say New Wallet. Navigation reveals the active sidebar item; Make Extinct moves into hover details with owner/zero-balance guards and per-Agent extinction progress. The reported pending-block failure comes from the Agent’s generic local Core error, not a removed display; its underlying cause remains under investigation. Dashboard diagnostics now retain its error code. No backward-compatibility transport is added.
 
 
-Build 21 now discovers public wallets automatically at idle priority across ready nodes, retaining uploaded records and ownership assignments as new wallets appear. Ownership has two stages and a dismissible discovery notification. Calculations contains the renamed Mempool page, with outlined 3D fill volumes and gently pulsing red pending blocks. Profile creation/editing requires a calendar-backed DD/MM/YYYY date of birth. Vault and descriptor-derived multisig badges fit four aligned icon slots.
+Build 22 now discovers public wallets automatically at idle priority across ready nodes, retaining uploaded records and ownership assignments as new wallets appear. Ownership has two stages and a dismissible discovery notification. Calculations contains the renamed Mempool page, with outlined 3D fill volumes and gently pulsing red pending blocks. Profile creation/editing requires a calendar-backed DD/MM/YYYY date of birth. Vault and descriptor-derived multisig badges fit four aligned icon slots.
 
 ## Landing page
 
@@ -73,7 +73,7 @@ Build 14 publishes fee priorities before optional mempool/block metadata finishe
 
 Build 13 fixes stale Vault status, displays actual signature thresholds and clearer creation/funding stages, and adds transaction fee review and clearer signing retries. Existing broadcast behavior is unchanged. Agent Build 13 implements its local fee, prompt, identity and status follow-up.
 
-[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 21 completes the Agent Build 9 signed initial wallet-preview relay and delivers complete missing-wallet lists and tracks received-but-history-incomplete outcomes. Changed facts or failed/denied operations require a deliberate new attempt. Public previews and requests survive restart; encrypted wallet files move directly between Agents after local authorisation. Users compare sender identity fingerprints and preview codes independently of Dashboard.
+[Explore Dashboard](https://bluesilent9.github.io/wallaby-suite/dashboard/) or browse its [Development source](https://github.com/bluesilent9/wallaby-dashboard/tree/Development). V1 Build 22 completes the Agent Build 9 signed initial wallet-preview relay and delivers complete missing-wallet lists and tracks received-but-history-incomplete outcomes. Changed facts or failed/denied operations require a deliberate new attempt. Public previews and requests survive restart; encrypted wallet files move directly between Agents after local authorisation. Users compare sender identity fingerprints and preview codes independently of Dashboard.
 
 Unsigned vault composition, partial signatures and separate broadcast approvals are implemented. Vault cards show policy/balance/unlock status. Existing node-only histories, historical watch groups, C1 losses, CGT, balances and fees remain. The Dashboard DEB starts and enables its system service. See [validation](https://github.com/bluesilent9/wallaby-dashboard/blob/Development/VALIDATION.md): protocol interoperability is tested, while physical laptop-to-laptop SSH/firewall checks remain local deployment work.
 
