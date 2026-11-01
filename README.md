@@ -19,6 +19,9 @@ Build 20 saves single-creator Wallet Builder and Transaction Builder workspaces,
 
 Earlier Build 19 restores the vault calendar and timezone map in Wallet Builder. Choose a 07:00 local target; a synchronised node supplies the tip for the 99% arrival-model height estimate. The read-only height displays commas but copies plain digits, with target and most-likely times in the selected timezone and UTC. Single-wallet defaults say New Wallet. Navigation reveals the active sidebar item; Make Extinct moves into hover details with owner/zero-balance guards and per-Agent extinction progress. The reported pending-block failure comes from the Agent’s generic local Core error, not a removed display; its underlying cause remains under investigation. Dashboard diagnostics now retain its error code. No backward-compatibility transport is added.
 
+
+Build 21 now discovers public wallets automatically at idle priority across ready nodes, retaining uploaded records and ownership assignments as new wallets appear. Ownership has two stages and a dismissible discovery notification. Calculations contains the renamed Mempool page, with outlined 3D fill volumes and gently pulsing red pending blocks. Profile creation/editing requires a calendar-backed DD/MM/YYYY date of birth. Vault and descriptor-derived multisig badges fit four aligned icon slots.
+
 ## Landing page
 
 The complete responsive website is the self-contained `index.html`. Open it locally, or view it through GitHub Pages. No build tools, external fonts, analytics or third-party scripts are required.
