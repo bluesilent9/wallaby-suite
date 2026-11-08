@@ -6,13 +6,13 @@
 
 | Program | Status | Purpose |
 | --- | --- | --- |
-| [Wallaby Wallet](https://bluesilent9.github.io/wallaby-suite/wallet/) | Server V1 Build 2 Development; Android companion planned | Family Bitcoin wallet management, multisig vaults, transactions, balances and tax working papers |
+| [Wallaby Wallet](https://bluesilent9.github.io/wallaby-suite/wallet/) | Server V1 Build 3 Development; Android companion planned | Family Bitcoin wallet management, multisig vaults, transactions, balances and tax working papers |
 | [Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development) | Development | Independently verified local Bitcoin operations, signing and archive handling |
 | [Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/) | See platform hub | Your own media library, cinema browsing and SSH-connected playback |
 
 ## Wallaby Wallet
 
-Wallaby Wallet Server is the Bitcoin-focused successor to Wallaby Dashboard. Its code and Development installer now live in [wallaby-wallet-server](https://github.com/bluesilent9/wallaby-wallet-server). The interface uses Wallaby Wallet branding. Product versions restart at V1 Build 2, with existing profiles and pending operations preserved by the package migration. Stable has no released Wallet Server version yet.
+Wallaby Wallet Server is the Bitcoin-focused successor to Wallaby Dashboard. Its code and Development installer now live in [wallaby-wallet-server](https://github.com/bluesilent9/wallaby-wallet-server). The interface uses Wallaby Wallet branding. Product versions restart at V1 Build 3, with existing profiles and pending operations preserved by the package migration. Stable has no released Wallet Server version yet.
 
 Server Build 2 includes OPAQUE account passwords, role-bound encrypted peer relaying and BTC-only mobile balance reads, using mobile loopback port 56444 separately from Agent port 56443. Existing profiles and builder progress are retained. The Android app and Agent QR screens are separate upcoming implementation stages; no mobile app or mobile spending feature is being released here. Local Agent review and approval remain mandatory.
 
