@@ -6,11 +6,13 @@
 
 | Program | Status | Purpose |
 | --- | --- | --- |
-| [Wallaby Wallet](https://bluesilent9.github.io/wallaby-suite/wallet/) | Server V1 Build 3 Development; Android companion planned | Family Bitcoin wallet management, multisig vaults, transactions, balances and tax working papers |
+| [Wallaby Wallet](https://bluesilent9.github.io/wallaby-suite/wallet/) | Server V1 Build 4 Development; Android companion planned | Family Bitcoin wallet management, multisig vaults, transactions, balances and tax working papers |
 | [Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development) | Development | Independently verified local Bitcoin operations, signing and archive handling |
 | [Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/) | See platform hub | Your own media library, cinema browsing and SSH-connected playback |
 
 ## Wallaby Wallet
+
+<img src="wallet/logo.svg" width="96" alt="Wallaby Wallet — Wallaby and Bitcoin">
 
 Wallaby Wallet Server is the Bitcoin-focused successor to Wallaby Dashboard. Its code and Development installer now live in [wallaby-wallet-server](https://github.com/bluesilent9/wallaby-wallet-server). The interface uses Wallaby Wallet branding. Product versions restarted at V1 Build 1, with existing profiles and pending operations preserved by the package migration. Stable has no released Wallet Server version yet.
 
