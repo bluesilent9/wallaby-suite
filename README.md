@@ -9,6 +9,7 @@
 | [Wallaby Wallet](https://bluesilent9.github.io/wallaby-suite/wallet/) | Server V1 Build 23 Development; Android companion planned | Family Bitcoin wallet management, multisig vaults, transactions, balances and tax working papers |
 | [Wallaby Agent](https://github.com/bluesilent9/wallaby-agent/tree/Development) | Development | Independently verified local Bitcoin operations, signing and archive handling |
 | [Wallaby Popcorn](https://bluesilent9.github.io/wallaby-suite/popcorn/) | See platform hub | Your own media library, cinema browsing and SSH-connected playback |
+| [Wallaby Ripper](https://github.com/bluesilent9/wallaby-ripper) | V1 Stable | One-step Adobe ACSM-to-PDF downloads with automatic authorization and progress |
 
 ## Wallaby Wallet
 
@@ -19,6 +20,12 @@ Wallaby Wallet Server is the Bitcoin-focused successor to Wallaby Dashboard. Its
 Server Build 2 includes OPAQUE account passwords, role-bound encrypted peer relaying and BTC-only mobile balance reads, using mobile loopback port 56444 separately from Agent port 56443. Existing profiles and builder progress are retained. The Android app and Agent QR screens are separate upcoming implementation stages; no mobile app or mobile spending feature is being released here. Local Agent review and approval remain mandatory.
 
 The former Dashboard repository is retired. Current Bitcoin software and downloads are maintained in [Wallaby Wallet Server](https://github.com/bluesilent9/wallaby-wallet-server). Existing /dashboard/ website links lead to /wallet/. A future general server-management Dashboard is outside Wallaby Wallet’s Bitcoin-only scope.
+
+## Wallaby Ripper
+
+[Wallaby Ripper V1](https://github.com/bluesilent9/wallaby-ripper) is the stable local ACSM-to-PDF application for Ubuntu and Kubuntu. Select a ticket and click Start to obtain authorization, download and decrypt its PDF, and receive the result through the browser. Progress stages show each step; the temporary encrypted PDF is deleted after validation.
+
+Source is on `stable`; `Development` initially contains the same commit. [Download V1](https://github.com/bluesilent9/wallaby-ripper/releases/tag/V1). See the product README for compatibility and account-bound ticket limits.
 
 ## Publication
 
